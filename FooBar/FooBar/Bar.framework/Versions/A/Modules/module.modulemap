@@ -1,0 +1,6 @@
+framework module Bar {
+  umbrella header "Bar.h"
+
+  export *
+  module * { export * }
+}
