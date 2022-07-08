@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     [[bar new] barFunc2];
     Class myClass = NSClassFromString(@"foo");
     id myObj = [[myClass alloc] init];
+    assert(myObj);
     [myObj fooFunc];
     return 0;
 }
